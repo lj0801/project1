@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <bwei.com.day7_rikao.View_Action.TopBars
+        android:id="@+id/top_bar_nei"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:leftBackground="@drawable/ic_sao_24dp"
+        app:rightBackground="@drawable/ic_menu_black_24dp"
+        app:titleText="首页"
+        app:titleTextSize="15sp"
+        app:titleTextColor="@color/colorAccent"
+        >
+    </bwei.com.day7_rikao.View_Action.TopBars>
+    <com.stx.xhb.xbanner.XBanner
+        android:id="@+id/xbanner_list"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></com.stx.xhb.xbanner.XBanner>
+    <TextView
+        android:text="魔力时尚"
+        android:textColor="@color/color_zi"
+        android:textSize="20sp"
+        android:gravity="center"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:text="热销新品"
+        android:textColor="@color/color_yello"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view2"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:textColor="@color/color_hong"
+        android:textSize="20sp"
+        android:text="品质生活"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view3"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <bwei.com.day7_rikao.View_Action.TopBars
+        android:id="@+id/top_bar_gw"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:leftBackground="@drawable/ic_keyboard_backspace_black_24dp"
+        app:rightBackground="@drawable/ic_menu_black_24dp"
+        app:titleText="我的"
+        app:titleTextSize="15sp"
+        app:titleTextColor="@color/colorAccent"
+        >
+    </bwei.com.day7_rikao.View_Action.TopBars>
+</LinearLayout>

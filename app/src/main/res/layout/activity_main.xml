@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <com.hjm.bottomtabbar.BottomTabBar
+
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.hjm.bottomtabbar.BottomTabBar>
+   <!--<android.support.v4.view.ViewPager
+       android:id="@+id/view_pager"
+       android:layout_weight="9"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"></android.support.v4.view.ViewPager>
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <RadioButton
+            android:id="@+id/radio_bun1"
+            android:layout_weight="1"
+            android:text="内存"
+            android:checked="true"
+            android:textSize="25sp"
+            android:button="@null"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/radio_bun2"
+            android:text="网络"
+            android:textSize="25sp"
+            android:button="@null"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/radio_bun3"
+            android:text="本地"
+            android:textSize="25sp"
+            android:button="@null"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </RadioGroup>-->
+</LinearLayout>

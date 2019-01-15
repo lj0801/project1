@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SPActivity"
+    android:orientation="vertical"
+    >
+    <com.stx.xhb.xbanner.XBanner
+        android:id="@+id/xbanner"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"></com.stx.xhb.xbanner.XBanner>
+    <com.recker.flybanner.FlyBanner
+        android:id="@+id/fly_banner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </com.recker.flybanner.FlyBanner>
+    <TextView
+        android:text="ss"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/text_sp_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="ss"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/text_sp_title"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

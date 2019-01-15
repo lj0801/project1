@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@mipmap/login"
+    android:orientation="vertical"
+    >
+            <EditText
+                android:drawableLeft="@mipmap/login_icon_eye"
+                android:id="@+id/edit_name"
+                android:hint="请输入手机号"
+                android:layout_marginTop="260dp"
+                android:layout_gravity="center"
+                android:layout_width="350dp"
+                android:layout_height="50dp" />
+            <EditText
+                android:drawableLeft="@mipmap/login_icon_phone"
+                android:layout_marginTop="35dp"
+                android:id="@+id/edit_pwd"
+              android:layout_gravity="center"
+                android:hint="请输入密码"
+                android:drawableRight="@mipmap/login_icon_lock"
+                android:layout_width="350dp"
+                android:layout_height="50dp" />
+            <Button
+                android:layout_below="@+id/edit_pwd"
+                android:id="@+id/bun_login"
+
+                android:text="登录"
+                android:layout_marginTop="30dp"
+                 android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="50dp" />
+            <Button
+                android:id="@+id/bun_resgin"
+                android:text="注册"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="50dp" />
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+        >
+        <CheckBox
+            android:id="@+id/check_rummber"
+            android:text="记住密码"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:layout_marginLeft="120dp"
+            android:layout_height="40dp" />
+        <CheckBox
+            android:layout_weight="1"
+            android:id="@+id/check_action"
+            android:text="自动登录"
+            android:layout_width="100dp"
+            android:layout_height="40dp" />
+        </LinearLayout>
+</LinearLayout>
